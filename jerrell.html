@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  class="scroll-smooth"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Tailwind Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="jerrell.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header absolute top-0 left-0 z-10 h-20 w-full items-center">
+      <div class="container mx-auto h-full">
+        <div class="relative flex h-full items-center justify-between">
+          <div class="ml-4 text-lg font-bold text-primary"><a href="#">Jerrell Marvel</a></div>
+
+          <!-- <div class="flex items-center px-4"> -->
+          <button
+            id="hamburger"
+            class="absolute right-4 block lg:hidden"
+          >
+            <span class="hamburger-line origin-top-left transition duration-300"></span>
+            <span class="hamburger-line transition duration-300"></span>
+            <span class="hamburger-line origin-bottom-left transition duration-300"></span>
+          </button>
+          <!-- </div> -->
+
+          <nav class="navbar invisible absolute top-full right-0 z-10 mr-4 ml-4 mt-2 rounded-lg bg-white shadow-2xl shadow-slate-600 lg:visible lg:static lg:m-0 lg:mr-4 lg:h-full lg:w-[60%] lg:bg-transparent lg:shadow-none">
+            <ul class="lg:text-l nav-links-wrapper flex flex-col gap-4 p-4 text-xl lg:h-full lg:flex-row lg:justify-end lg:gap-8 lg:p-0">
+              <li>
+                <a
+                  href="#home"
+                  class="inline-block w-full px-5 py-3 pr-32 hover:text-primary lg:flex lg:h-full lg:items-center lg:p-0"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  class="inline-block w-full py-3 px-5 pr-40 hover:text-primary lg:flex lg:h-full lg:items-center lg:p-0"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#portfolio"
+                  class="inline-block w-full py-3 px-5 pr-40 hover:text-primary lg:flex lg:h-full lg:items-center lg:p-0"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#clients"
+                  class="inline-block w-full px-5 py-3 pr-40 hover:text-primary lg:flex lg:h-full lg:items-center lg:p-0"
+                  >Clients</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#blogs"
+                  class="inline-block w-full py-3 px-5 pr-40 hover:text-primary lg:flex lg:h-full lg:items-center lg:p-0"
+                  >Blogs</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  class="inline-block w-full py-3 px-5 pr-40 hover:text-primary lg:flex lg:h-full lg:items-center lg:p-0"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- Hero section -->
+    <section
+      id="home"
+      class="pt-24"
+    >
+      <div class="container mx-auto">
+        <div class="flex flex-col sm:flex-row">
+          <div class="w-full flex-col justify-center px-4 sm:flex">
+            <h1 class="lg:text-7xlxl mb-2 text-4xl font-bold text-dark md:text-7xl">Jerrell Marvel</h1>
+            <h2 class="mb-4 text-xl font-medium text-dark md:text-4xl">Web Developer</h2>
+            <p class="mb-4 text-slate-500 md:text-lg lg:text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, numquam?</p>
+            <a
+              href="#"
+              class="inline-block w-fit rounded-full bg-primary px-8 py-3 font-semibold text-white transition duration-300 hover:opacity-80 hover:shadow-lg md:text-xl"
+            >
+              About Me</a
+            >
+          </div>
+
+          <div class="h-full w-full px-4 pb-8">
+            <div class="mt-6">
+              <img
+                src="https://www.designyourway.net/blog/wp-content/uploads/2019/05/iPad-Pro-wallpaper-54-700x700.jpg"
+                alt=""
+                class="mx-auto max-w-full"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="jerrell.js"></script>
+  </body>
+</html>
